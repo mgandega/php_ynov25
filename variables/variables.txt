@@ -1,0 +1,140 @@
+
+/*************************** QCM ************************/
+Question 1/7
+
+<?php
+$res = 2+3/4; 
+echo $res;
+?>
+
+Qu'affiche le script ?
+
+ Je ne sais pas 
+ A) 1.25 
+ B) 2 
+ C) 2.75 
+
+Réponse: ?
+/*******************************************************/
+
+Question 2/7 : PHP
+
+
+<?php
+$res = 15;
+$Res = 10;
+$Res = $Res -7;
+print $res;
+?>
+
+Qu'affiche le script ?
+
+ Je ne sais pas 
+ A) 3 
+ B) 8 
+ C) 15 
+
+Réponse: ?
+/**********************************************************************************/
+
+
+Question 3/7 : PHP
+
+
+<?php
+$a = 6;
+$b = 15;
+$c = $a;
+$a = $b;
+$b = $c;
+echo "$a $b";
+?>
+
+Qu'affiche le script ?
+
+
+ Je ne sais pas 
+ A) 6 6 
+ B) 6 15 
+ C) 15 6 
+ D) 15 15 
+
+Réponse: ?
+/***********************************************************************************/
+
+Question 4/7 : PHP
+
+
+<?php
+$a = 1,5; 
+$b = 2,2;
+$c = $a + $b;
+print $c;
+?>
+
+Qu'affiche le script ?
+
+ Je ne sais pas 
+ A) 3,7 
+ B) 3.7 
+ C) Le script génère une erreur. 
+
+Réponse: ?
+/************************************************************************************/
+
+Question 5/7 : PHP
+
+
+<?php
+$a = "3*7";
+print $a;
+?>
+
+Qu'affiche le script ?
+
+ Je ne sais pas 
+ A) 21 
+ B) 3*7 
+
+Réponse: ?
+/*************************************************************************************/
+
+Question 6/7 : PHP
+
+
+<?php
+$a = "4";
+$b = "2";
+$c = $a.$b;
+print $c;
+?>
+
+Qu'affiche le script ?
+
+
+ Je ne sais pas 
+ A) 8 
+ B) 24 
+ C) 42 
+
+Réponse: ?
+/**************************************************************************************/
+
+Question 7/7 : PHP
+
+
+<?php
+$a = "Bon";
+$b = "jour";
+print $b.$a;
+?>
+
+Qu'affiche le script ?
+
+
+ Je ne sais pas 
+ A) jourBon 
+ B) Bonjour 
+ C) $b.$a 
+
+Réponse: ?
