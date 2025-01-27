@@ -1,13 +1,13 @@
 <?php
-// les conditions permettent d'execution ce qui se trouve entre les accolades si telle condition est vrai (retourne true)
+// les conditions permettent d'execution ce qui se trouve entre les accolades si telle condition est vraie (retourne true)
 // syntaxe:
 // si ce qui se trouve entre les parenthéses retourne true, le code qui se trouve entre les accolades s'execute
-// if (condition à tester){
+// if(condition à tester){
 //     // code à éxecuter
 // }
 
 // exemple:
-$age = 23;
+// $age = 23;
 // == est l'égalité mathématique , ici on teste si $age (23) est égale à 23, si c'est vraie la condition retourne true et ce qui se trouve entre les accolades s'executera
 // il y'a que deux endroit ou écrire du code, la premiere c'est entre les parentheses et la deuxieme c'est entre les accolades
 // if($age == 23){
@@ -20,12 +20,13 @@ $age = 23;
 // if($age == 23){
 //     echo "il a l'age qu'il faut <br>";
 // }
-// if($age == 22){
+// if(!($age == 22)){
 //     echo "il a l'age qu'il faut <br>";
 // }
 // if($age == 24){
 //     echo "il a l'age qu'il faut <br>";
 // }else{
+//     // si le if qui vient juste avant le else n'est pas vrai c'est le else qui s'executera dans tous les cas
 //     echo "il n'a pas l'age qu'il faut <br>";
 // }
 
@@ -96,7 +97,58 @@ $age = 23;
 // 15/5 => 3 et il reste 0 , donc 0 est le modulo
 // 15 % 3 == 0 => (15 modulo 3 égale à 0)
 
-$nombre = 15;
-if($nombre%3 == 0 and $nombre %5 == 0){
-    echo "$nombre est multiple de 3 et de 5";
+// $nombre = 15;
+// if($nombre%3 == 0 and $nombre %5 == 0){
+//     echo "$nombre est multiple de 3 et de 5";
+// }
+
+// $prenom = "jean";
+
+// // je teste si $prenom contient une valeur
+// // ici, c'est oui donc ça return true, j'executerai ce qui se trouve entre les accolades
+// if($prenom){
+//     echo "mon prenom est $prenom";
+// }else{
+//     echo "je ne suis sais pas";
+// }
+
+// $prenom = " ";
+
+// // je teste si $prenom contient une valeur (l'espace est une valeur)
+// // ici, c'est oui donc ça return true, j'executerai ce qui se trouve entre les accolades
+// if($prenom){
+//     echo "mon prenom est $prenom";
+// }else{
+//     echo "je ne suis sais pas";
+// }
+// $prenom = "";
+
+// // je teste si $prenom contient une valeur (l'espace est une valeur)
+// // ici, c'est oui donc ça return true, j'executerai ce qui se trouve entre les accolades
+// if($prenom){
+//     echo "mon prenom est $prenom";
+// }else{
+//     echo "je ne suis sais pas";
+// }
+
+// le ternaire
+// le ternaire permet d'ecrire la structure conditionnelle if/else en une seule ligne 
+$age = 25;
+if($age >=18){
+    echo "vous êtes majeur";
+}else{
+    echo "vous êtes mineur";
 }
+// oubien
+if($age >=18){
+    $resulat =  "vous êtes majeur";
+}else{
+    $resultat = "vous êtes mineur";
+}
+echo $resultat;
+
+
+// si ($age >= 18) est vrai je stock "vous êtes majeur" dans $resultat
+// sinon je stock "vous êtes mineur" dans $resultat
+// $resultat = ($age >= 18)?"vous êtes majeur":"vous êtes mineur";
+// echo $resultat;
