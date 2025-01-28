@@ -31,16 +31,17 @@
 // addition(25);
 
 // $nombre = 25;
-// function addition($a, $b=18){
+// function add($a, $b=18){
 //     $res = $a + $b;
 //     echo "le résultat est :  $res";
 // }
-// addition($nombre);
+// add($nombre);
 
 // $nombre = 25;
 // function addition($a, $b=18){
 //     $res = $a + $b;
 //     $resultat = "le résultat est :  $res";
+//     // return permet de retourner l'information dans l'espace global
 //     return $resultat;
 // }
 // $res = addition($nombre);
@@ -49,21 +50,29 @@
 // espace local et espace global
 // $nombre = 25;
 // function addition($a, $b=10){
-//     $a = $a +5;
-//     $res = $a + $b;
-//     $resultat = "le résultat est :  $res";
-//     return $resultat;
+//    $a = $a +5;
+//    return $a;
+//     // $res = $a + $b;
+//     // $resultat = "le résultat est :  $res";
+//     // return $resultat;
 // }
-// echo addition($nombre);
-// oubien
-// $res = addition($a);
+// // echo addition($nombre);
+// // oubien
+// $res = addition($nombre);
 // echo $res;
 // echo "<br>";
 // echo $a;
 
+// function theo(){
+//   // après un return tous les quôtes ne seront pas interprétés
+//   return "mon prenom est théo";
+//   $age = 22;
+// }
+// echo theo();
+// echo "<br>";
+// echo $age;
 // $a = 25;
 // function addition($b=20){
-//     // global permet de recuperer une variable (rendre disponible une variable) de l'espace global à l'espace local
 //     global $a;
 //     $res = $a + $b;
 //     $resultat = "le résultat est :  $res";
@@ -72,7 +81,7 @@
 // echo addition();
 // $a = 25;
 // function addition(&$a, $b=30){
-// on assigne la valeur 5 par réference
+// //on assigne la valeur 5 par réference
 //     $a = 5;
 //     $res = $a + $b;
 //     $resultat = "le résultat est :  $res";
@@ -81,4 +90,13 @@
 // echo addition($a);
 // echo "<br>";
 // echo $a;
-echo 'ok';
+
+// $fruit1 = "pomme"; 
+// $fruit2 = "banane";
+// $fruit1 = &$fruit2;
+// $fruit2 = "goyave";
+
+// echo $fruit1;
+// echo "<br>";
+// echo $fruit2;
+
