@@ -1,4 +1,5 @@
 <?php 
+declare(strict_types=1);
 // une fonction permet d'automatiser des traitements oubien de donner un affichage particulier par rapport à un ou plusieurs parametres 
 
 // syntaxe:
@@ -99,4 +100,35 @@
 // echo $fruit1;
 // echo "<br>";
 // echo $fruit2;
+
+// $nb1= 12;
+// $nb2 = 24;
+// function calcul(int $nb1, int $nb2):int
+// {
+//   $res = $nb1 + $nb2;
+//   return $res;
+// }
+// echo calcul($nb1, $nb2);
+
+
+// fonctions liées au chaines de caractères
+// strtolower() permet de convertir une chaine de caractères en miniscule
+// $prenom = "Jean";
+// echo strtolower($prenom);
+// strtoupper() permet de convertir une chaine de caractères en majuscule
+// $prenom = "Jean";
+// echo strtoupper($prenom);
+// strlen(); permet de connaitre la longueur d'une chaine de caractères
+
+// echo strlen($prenom);
+
+// str_repeat(); permet de repeter ;une chaine plusieurs fois 
+// echo str_repeat('hello <br>', 5);
+
+// str_replace() // permet de remplacer une chaine de caractère par une autre dans une phrase;
+// $texte = "bonjour tout le monde";
+// echo str_replace('bonjour','bonsoir', $texte);
+
+
+
 
