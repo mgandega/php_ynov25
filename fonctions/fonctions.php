@@ -129,6 +129,35 @@ declare(strict_types=1);
 // $texte = "bonjour tout le monde";
 // echo str_replace('bonjour','bonsoir', $texte);
 
+class Prenom
+{
+  public function presentation(){
+    return "je m'appelle cheikhbi";
+  }
+}
+$pren = new Prenom();
+
+// $callable = [$pren,'presentation'];
+
+// echo '<pre>';
+// var_dump($callable());
+// echo '</pre>';
+
+// $res = function(){
+//   return 'hello';
+// };
+// echo $res();
+
+class Person{
+
+  public static function presentation(){
+    return 'hello hello ...';
+  } 
+}
+$val =  'Person::presentation';
+echo $val();
+
+
 
 
 
