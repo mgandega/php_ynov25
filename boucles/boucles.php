@@ -9,12 +9,13 @@
 // le troisieme est l'incrémentation ou la décrémentation
 // $i++ c'est le pas (il avance de 1)
 
-// for(/*phase d'initialisation*/, /* la condition */, /* l'incrémentation */ ){
-//     // code à executer
+// for(/*phase d'initialisation, la condition,  l'incrémentation */ ){
+    // code à executer
 // }
 
-// for ($i=0; $i <=10 ; $i++) { 
-
+// for ($i=0; $i <=10 ; $i = $i +1) { 
+//     // on boucle d'abord après on incremente de 1
+//     // $i = $i +2 => $i+2;
 //     echo $i."<br>";
 //     if($i == 4){
 //         break; // le mot clé break permet de sortir de la boucle
@@ -29,19 +30,18 @@
 //     echo $i."<br>";
 // }
 
+// // while 
+// // syntaxe
 
-// while 
-// syntaxe
+// // // phase d'initialisation
 
-// // phase d'initialisation
+// // while(/*la condition */){
 
-// while(/*la condition */){
+// //     // phase d'incrémentation
+// // }
 
-//     // phase d'incrémentation
-// }
-
-// $i = 1;
-// while($i<=10){
-//     echo $i."<br>";
-//     $i++; // $i = $i + 1
-// }
+// // $i = 1;
+// // while($i<=10){
+// //     echo $i."<br>";
+// //     $i++; // $i = $i + 1
+// // }

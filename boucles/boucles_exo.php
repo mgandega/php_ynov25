@@ -62,7 +62,7 @@
 // Si la valeur de la variable est égale à 10, la mettre en valeur avec la balise HTML appropriée.
 
 $i = 0;
-while($i<20){
+while($i<   20){
     if($i==10){
         continue;
         echo "<span style='color:red'>".$i."</span><br>";
