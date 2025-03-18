@@ -4,10 +4,12 @@
 // $prenom = "pierre, paul, jacques"; // ceci est une seule information malgré 
 // qu'il ait plusieurs mots ;
 
+/*********** tableau numéroté **************/
+
 //  $prenoms = ["pierre","paul","jacques"]; // là on stocke plusieurs valeur
 // un tableau est une variable qui peut stocker plusieurs valeurs (éléments)
 // syntaxe 
-$nomVariable = ["valeur1","valeur2","valeur3","valeur4","valeur5"];
+// $nomVariable = ["valeur1","valeur2","valeur3","valeur4","valeur5"];
 // on compte à partir de 0
 // pierre a comme index 0
 // paul a comme index 1
@@ -40,10 +42,40 @@ $nomVariable = ["valeur1","valeur2","valeur3","valeur4","valeur5"];
 
 // parcourir les éléments du tableau
 
-$prenoms = ["pierre","paul","jacques"];
-for($i=0; $i<=2; $i++){
-    echo $i."<br>";
-}
+// $prenoms = ["pierre","paul","jacques"];
+// count($prenoms);
+// for($i=0; $i<3; $i++){
+//     echo $prenoms[$i]."<br>";
+// }
+// count() permet de compter le nombre d'éléments d'un tableau
+// echo count($prenoms); // affiche 3
 
+// en s'inspirant de count() et de la boucle for, afficher 
+// le nombre d'éléments du tableau prenom
+// $prenoms = ["pierre","paul","jacques"];
+// //count($prenoms)  => 3
+// for($i=0; $i< count($prenoms); $i++){
+//     echo $prenoms[$i]."<br>";
+// }
+
+$fruits = ["pomme",["poire",["kiwi"]],"banane", "mandarine"];
+
+echo "<pre>";
+print_r($fruits);
+echo "<pre>";
+echo "<hr>";
+echo "<pre>";
+print_r($fruits[1]);
+echo "<pre>";
+echo "<hr>";
+echo "<pre>";
+print_r($fruits[1][1]);
+echo "<pre>";
+echo "<hr>";
+echo "<pre>";
+print_r($fruits[1][1][0]);
+echo "<pre>";
+// affichons j'aime bien le kiwi
+// echo "j'aime bien le ".$fr
 
 
