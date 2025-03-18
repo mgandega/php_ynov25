@@ -104,3 +104,8 @@
 
 // afficher bonjour robert tu es du genre masculin et tu habites 
 // à paris
+
+$identite = ["prenom"=>"robert", "genre"=>"masculin", "ville"=>"paris" ];
+
+echo "Bonjour ".$identite["prenom"]." tu es du genre ".$identite["genre"].
+" et tu habites à ".$identite["ville"];
