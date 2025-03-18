@@ -58,24 +58,49 @@
 //     echo $prenoms[$i]."<br>";
 // }
 
-$fruits = ["pomme",["poire",["kiwi"]],"banane", "mandarine"];
+// $fruits = ["pomme",["poire",["kiwi"]],"banane", "mandarine"];
 
-echo "<pre>";
-print_r($fruits);
-echo "<pre>";
-echo "<hr>";
-echo "<pre>";
-print_r($fruits[1]);
-echo "<pre>";
-echo "<hr>";
-echo "<pre>";
-print_r($fruits[1][1]);
-echo "<pre>";
-echo "<hr>";
-echo "<pre>";
-print_r($fruits[1][1][0]);
-echo "<pre>";
+// echo "<pre>";
+// print_r($fruits);
+// echo "<pre>";
+// echo "<hr>";
+// echo "<pre>";
+// print_r($fruits[1]);
+// echo "<pre>";
+// echo "<hr>";
+// echo "<pre>";
+// print_r($fruits[1][1]);
+// echo "<pre>";
+// echo "<hr>";
+// echo "<pre>";
+// print_r($fruits[1][1][0]);
+// echo "<pre>";
 // affichons j'aime bien le kiwi
 // echo "j'aime bien le ".$fr
 
+// tableau associatif
+// un tableau associatif est un tableau dont chaque valeur
+//  est associée à un index nominatif
 
+// prenom est une clé (index)
+// pierre est une valeur
+// $prenoms = ["prenom"=>"pierre","nom"=>"macron","age"=>49];
+// // echo $prenoms["age"]; // affiche 49
+// // echo $prenoms["nom"]; // affiche macron
+
+// // pour chaque élément du tableau récupére moi 
+// // la valeur correspondante
+// // un élément est composé de clé et de valeur
+// foreach($prenoms as $valeur){
+//     echo $valeur."<br>";
+// }
+
+// créer un tableau associatif identite qui a comme clés 
+// et valeurs: 
+
+// prenom => robert
+// genre => masculin
+// ville => paris
+
+// afficher bonjour robert tu es du genre masculin et tu habites 
+// à paris
