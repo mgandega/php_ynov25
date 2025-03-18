@@ -105,12 +105,55 @@
 // afficher bonjour robert tu es du genre masculin et tu habites 
 // à paris
 
-$identite = ["prenom"=>"robert", "genre"=>"masculin", "ville"=>"paris" ];
+// $identite = ["prenom"=>"robert", "genre"=>"masculin", "ville"=>"paris" ];
 
-// echo "Bonjour ".$identite["prenom"]." tu es du genre ".$identite["genre"].
-// " et tu habites à ".$identite["ville"];
+// // echo "Bonjour ".$identite["prenom"]." tu es du genre ".$identite["genre"].
+// // " et tu habites à ".$identite["ville"];
 
-foreach ($identite as $cle => $value) {
-   echo "la cle $cle correspond à la valeur $value <br>";
-}
+// foreach ($identite as $cle => $value) {
+//    echo "la cle $cle correspond à la valeur $value <br>";
+// }
 
+// la fonction rand() affiche des nombres aléatoire allant du minumum au maximum
+// echo rand(10, 20);
+
+// stocker la valeur 25 dans le tableau tab
+// $tab = [];
+// function nombre($valeur){
+//     // global permet de rendre la variable disponible dans la fonction
+//     global $tab; 
+//     $tab[] = $valeur;
+//     return $tab;
+// }
+
+// nombre(25);
+
+// echo "<pre>";
+//     print_r($tab);
+// echo "</pre>";
+
+// afficher les nombres allant de 50 à 60 et les stocker dans un tableau
+// en utilisant la boucle for
+
+// $monTab = [];
+// for ($i=50; $i <=60 ; $i++) { 
+//     $monTab[] = $i;
+// }
+
+// echo "<pre>";
+//     print_r($monTab);
+// echo "</pre>";
+
+// foreach ($monTab as  $value) {
+//     echo $value."<br>";
+// }
+
+// dernier element du tableau
+$prenoms = ["pierre","paul","jacques"];
+
+// comment faire pour connaitre toujours le dernier élément du tableau
+count($prenoms); // affiche 3 car il y'a 3 éléments
+echo $prenoms[2];
+echo $prenoms[3-1];
+// entre l'index et l'élément , il y'a une différence de 1 
+echo $prenoms[count($prenoms)-1];
