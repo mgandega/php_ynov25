@@ -107,5 +107,10 @@
 
 $identite = ["prenom"=>"robert", "genre"=>"masculin", "ville"=>"paris" ];
 
-echo "Bonjour ".$identite["prenom"]." tu es du genre ".$identite["genre"].
-" et tu habites à ".$identite["ville"];
+// echo "Bonjour ".$identite["prenom"]." tu es du genre ".$identite["genre"].
+// " et tu habites à ".$identite["ville"];
+
+foreach ($identite as $cle => $value) {
+   echo "la cle $cle correspond à la valeur $value <br>";
+}
+
