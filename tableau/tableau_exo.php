@@ -163,7 +163,6 @@
 // }
 // echo verificationPassword($pass);
 
-
 /********************************  EXERCICE 10 ************************/
 // Créer une fonction from scratch qui s'appelle remplacerLesLettres(). Elle prendra un argument de type string. 
 // Elle devra retourner cette même string mais en remplacant les e par des 3, les i par des 1 et les o par des 0 Exemple :
