@@ -24,13 +24,17 @@
 // $prenoms[] = "pierre";
 // $prenoms[] = "paul";
 // $prenoms[] = "jacques";
+// // équivalent à ça :
+// $prenoms = ["pierre","paul","jacques"];
 
-// $fruits = ["pomme","banane","mandarine",["poire","kiwi"]];
+
+$fruits = ["pomme","banane","mandarine",["poire","kiwi"]];
 
 // afficher mon fruit préfèré est kiwi
 // echo '<pre>';
 // print_r($fruits);
 // echo '</pre>';  
+
 
 // echo '<pre>';
 // print_r($fruits[3]);
@@ -39,7 +43,6 @@
 // echo '<pre>';
 // print_r($fruits[3][1]);
 // echo '</pre>';
-
 // parcourir les éléments du tableau
 
 // $prenoms = ["pierre","paul","jacques"];
@@ -51,14 +54,14 @@
 // echo count($prenoms); // affiche 3
 
 // en s'inspirant de count() et de la boucle for, afficher 
-// le nombre d'éléments du tableau prenom
+// le nombre d'éléments du tableau prenoms
 // $prenoms = ["pierre","paul","jacques"];
 // //count($prenoms)  => 3
 // for($i=0; $i< count($prenoms); $i++){
 //     echo $prenoms[$i]."<br>";
 // }
 
-// $fruits = ["pomme",["poire",["kiwi"]],"banane", "mandarine"];
+$fruits = ["pomme",["poire",["kiwi"]],"banane", "mandarine"];
 
 // echo "<pre>";
 // print_r($fruits);
@@ -85,6 +88,7 @@
 // prenom est une clé (index)
 // pierre est une valeur
 // $prenoms = ["prenom"=>"pierre","nom"=>"macron","age"=>49];
+
 // // echo $prenoms["age"]; // affiche 49
 // // echo $prenoms["nom"]; // affiche macron
 
@@ -121,12 +125,13 @@
 // $tab = [];
 // function nombre($valeur){
 //     // global permet de rendre la variable disponible dans la fonction
+//     // global permet de rendre disponible une variable de l'espace global à l'espace local
 //     global $tab; 
 //     $tab[] = $valeur;
 //     return $tab;
 // }
 
-// nombre(25);
+// echo nombre(25);
 
 // echo "<pre>";
 //     print_r($tab);
@@ -151,13 +156,13 @@
 // dernier element du tableau
 // $prenoms = ["pierre","paul","jacques"];
 
-// // comment faire pour connaitre toujours le dernier élément du tableau
-// count($prenoms); // affiche 3 car il y'a 3 éléments
-// echo $prenoms[2];
-// echo $prenoms[3-1];
-// // entre l'index et l'élément , il y'a une différence de 1 
+// // // comment faire pour connaitre toujours le dernier élément du tableau
+// // count($prenoms); // affiche 3 car il y'a 3 éléments
+// // echo $prenoms[2];
+// // echo $prenoms[3-1];
+// // // entre l'index et l'élément , il y'a une différence de 1 
 // echo $prenoms[count($prenoms)-1];
 
-$texte = "bonjour tout le monde";
+// $texte = "bonjour tout le monde";
 
-echo str_replace("bonjour","bonsoir", $texte);
+// echo str_replace("bonjour","bonsoir", $texte);

@@ -6,8 +6,11 @@ Italie : Rome
 Afficher les valeurs de tous les éléments du tableau en utilisant la boucle foreach.
 
 
+
+
 EXERCICE 2
-En utilisant la fonction rand(), remplir un tableau avec 10 nombres aléatoires. Puis, tester si le chiffre 42 est dans le tableau et afficher un message en conséquence. Enfin, afficher le contenu de votre tableau avec var_dump.
+En utilisant la fonction rand(), remplir un tableau avec 10 nombres aléatoires. Puis, tester si le chiffre 42 
+est dans le tableau et afficher un message en conséquence. Enfin, afficher le contenu de votre tableau avec var_dump.
 
 
 EXERCICE 3
