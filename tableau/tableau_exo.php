@@ -158,7 +158,7 @@
 //          return 'true';
 //         }else{
 //             // echo 'false<br>';
-//             return 'false';
+//             return 'false'; 
 //         }
 // }
 // echo verificationPassword($pass);
